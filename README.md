@@ -6,7 +6,7 @@ Repositorio de la materia. Aquí se van agregando los ejercicios que vemos en cl
 
 ## Objetos
 
-La teoría de POO está basada en el apunte "Paradigma de Objetos" del Ing. Lucas Spigariol, que está dentro de la carpeta "Apuntes" del [drive la materia]((https://drive.google.com/drive/folders/1lQ0qzNaJH2uyQBexMSVmqPc9vL0PbCaB?usp=sharing).
+La teoría de POO está basada en el apunte "Paradigma de Objetos" del Ing. Lucas Spigariol, que está dentro de la carpeta "Apuntes" del [drive la materia](https://drive.google.com/drive/folders/1lQ0qzNaJH2uyQBexMSVmqPc9vL0PbCaB?usp=sharing).
 
 ## Agregar a repositorio propio
 
