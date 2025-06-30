@@ -1,15 +1,11 @@
 #include "Persona.h"
 
-Persona::Persona() // constructor por defecto
+Persona::Persona()
 {
     nombre = "Juan";
     ciudad = "Viedma";
-}
-
-Persona::Persona(std::string _nombre, std::string _ciudad) // constructor parametrizado
-{
-    nombre = _nombre;
-    ciudad = _ciudad;
+    efectivo = 0;
+    //std::cout << this << std::endl;
 }
 
 Persona::~Persona()
@@ -17,22 +13,33 @@ Persona::~Persona()
     //dtor
 }
 
-std::string Persona::comoTeLlamas()
-{
-    return nombre;
-}
-
-std::string Persona::dondeVivis()
+std::string Persona::dondeVivis ()
 {
     return ciudad;
 }
 
-void Persona::mudarse(std::string unaCiudad)
+std::string Persona::comoTeLlamas ()
+{
+    return nombre;
+}
+
+void Persona::mudarse (std::string unaCiudad)
 {
     ciudad = unaCiudad;
 }
 
-void Persona::tuCajaFuerteEs (CajaFuerte &unaCajaFuerte)
+void Persona::tuCajaFuerteEs (CajaFuerte& unaCajaFuerte)
 {
     miCajaFuerte = &unaCajaFuerte;
+}
+
+void Persona::cobrar (float unSueldo)
+{
+    efectivo += unSueldo * 0.6;
+    miCajaFuerte -> guardar (unSueldo * 0.4);
+}
+
+float Persona::dineroTotal ()
+{
+    return efectivo + miCajaFuerte -> cuantoHay ();
 }

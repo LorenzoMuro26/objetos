@@ -1,25 +1,27 @@
 #ifndef PERSONA_H
 #define PERSONA_H
-#include <string>
+#include <iostream>
 #include "CajaFuerte.h"
 
 class Persona
 {
     public:
         Persona();
-        Persona (std::string, std::string); // constructor parametrizado
         virtual ~Persona();
-        std::string comoTeLlamas();
-        std::string dondeVivis();
+        std::string dondeVivis ();
+        std::string comoTeLlamas ();
         void mudarse (std::string);
-        void tuCajaFuerteEs (CajaFuerte &);
+        void cobrar (float);
+        float dineroTotal ();
+        void tuCajaFuerteEs (CajaFuerte&);
 
     protected:
 
     private:
-        std::string ciudad;
         std::string nombre;
-        CajaFuerte *miCajaFuerte;
+        std::string ciudad;
+        float efectivo;
+        CajaFuerte* miCajaFuerte;
 };
 
 #endif // PERSONA_H
