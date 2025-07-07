@@ -39,3 +39,29 @@
 1750707998 source:d:\users\jtorres\documents\objetos\src\persona.cpp
 	"Persona.h"
 
+1751918675 source:c:\users\alumno\documents\objetos\main.cpp
+	<iostream>
+	"Persona.h"
+	"CajaFuerte.h"
+	"Ladron.h"
+
+1751916320 c:\users\alumno\documents\objetos\include\persona.h
+	<iostream>
+	"CajaFuerte.h"
+
+1751916320 c:\users\alumno\documents\objetos\include\cajafuerte.h
+
+1751916320 source:c:\users\alumno\documents\objetos\src\cajafuerte.cpp
+	"CajaFuerte.h"
+
+1751916320 source:c:\users\alumno\documents\objetos\src\persona.cpp
+	"Persona.h"
+
+1751917700 source:c:\users\alumno\documents\objetos\src\ladron.cpp
+	"Ladron.h"
+	<iostream>
+	<CajaFuerte.h>
+
+1751918675 c:\users\alumno\documents\objetos\include\ladron.h
+	"CajaFuerte.h"
+

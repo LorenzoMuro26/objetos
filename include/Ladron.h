@@ -6,15 +6,16 @@ class Ladron
 {
     public:
         Ladron();
-        Ladron(CajaFuerte &);
         virtual ~Ladron();
-        void robar ();
+        void Robar ();
+        void tuObjetivoEs (CajaFuerte &);
 
     protected:
 
     private:
+        CajaFuerte* Objetivo;
         float robado;
-        CajaFuerte* objetivo;
+
 };
 
 #endif // LADRON_H

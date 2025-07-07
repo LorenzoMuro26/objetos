@@ -25,9 +25,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/CajaFuerte.h" />
+		<Unit filename="include/Ladron.h" />
 		<Unit filename="include/Persona.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/CajaFuerte.cpp" />
+		<Unit filename="src/Ladron.cpp" />
 		<Unit filename="src/Persona.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
