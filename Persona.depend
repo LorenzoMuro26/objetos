@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1750708017 source:d:\users\jtorres\documents\le_2025\persona\main.cpp
+	<iostream>
+	"Persona.h"
+	"CajaFuerte.h"
+
+1750707998 source:d:\users\jtorres\documents\le_2025\persona\src\persona.cpp
+	"Persona.h"
+
+1750706699 d:\users\jtorres\documents\le_2025\persona\include\persona.h
+	<iostream>
+	"CajaFuerte.h"
+
+1750706288 source:d:\users\jtorres\documents\le_2025\persona\src\cajafuerte.cpp
+	"CajaFuerte.h"
+
+1750706179 d:\users\jtorres\documents\le_2025\persona\include\cajafuerte.h
+
+1750709429 source:d:\users\jtorres\documents\le_2025\persona\src\ladron.cpp
+	"Ladron.h"
+
+1750709429 d:\users\jtorres\documents\le_2025\persona\include\ladron.h
+	"CajaFuerte.h"
+
+1750708017 source:d:\users\jtorres\documents\objetos\main.cpp
+	<iostream>
+	"Persona.h"
+	"CajaFuerte.h"
+
+1750706699 d:\users\jtorres\documents\objetos\include\persona.h
+	<iostream>
+	"CajaFuerte.h"
+
+1750706179 d:\users\jtorres\documents\objetos\include\cajafuerte.h
+
+1750706288 source:d:\users\jtorres\documents\objetos\src\cajafuerte.cpp
+	"CajaFuerte.h"
+
+1750707998 source:d:\users\jtorres\documents\objetos\src\persona.cpp
+	"Persona.h"
+
